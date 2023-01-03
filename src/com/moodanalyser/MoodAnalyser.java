@@ -1,18 +1,14 @@
 package com.moodanalyser;
 
 public class MoodAnalyser {
-    private String message;
-
-    public MoodAnalyser() {
+        public String analyseMood(String message) {
+            try {
+                if (message.contains("Sad")) {
+                    return "SAD";
+                }
+            } catch (NullPointerException e) {
+                return "HAPPY";
+            }
+            return null;
+        }
     }
-
-    public MoodAnalyser(String message) {
-        this.message = message;
-    }
-    public String analyseMood(String message) {
-        if (message.contains("Sad"))
-            return "SAD";
-        else
-            return "HAPPY";
-    }
-}
