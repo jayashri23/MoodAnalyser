@@ -44,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MoodAnalyserTest.givenMessage_WhenHappy_ShouldReturnHappy">
+  <component name="RunManager" selected="JUnit.MoodAnalyserTest.givenMessage_AnyMood_Should_Return_HAPPY">
     <configuration name="MoodAnalyserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MoodAnalyser" />
       <extension name="coverage">
@@ -56,6 +56,22 @@
       <option name="PACKAGE_NAME" value="com.moodanalyser" />
       <option name="MAIN_CLASS_NAME" value="com.moodanalyser.MoodAnalyserTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoodAnalyserTest.givenMessage_AnyMood_Should_Return_HAPPY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MoodAnalyser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moodanalyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.moodanalyser" />
+      <option name="MAIN_CLASS_NAME" value="com.moodanalyser.MoodAnalyserTest" />
+      <option name="METHOD_NAME" value="givenMessage_AnyMood_Should_Return_HAPPY" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_AnyMood_Should_Return_HAPPY" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenHappy_ShouldReturnHappy" />
         <item itemvalue="JUnit.MoodAnalyserTest" />
       </list>
